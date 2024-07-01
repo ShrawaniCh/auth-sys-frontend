@@ -1,0 +1,100 @@
+.login{
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(49,114,128);
+background: linear-gradient(180deg, rgba(49,114,128,1) 0%, rgba(88,192,189,1) 100%);
+    .login_container{
+        width: 30%;
+        height: 60%;
+        background-color: #202c4d;
+        color: #fff;
+        border-radius: 16px;
+        // overflow: hidden;
+        .login_top{
+            position: relative;
+            height: 40%;
+            display: flex;
+            justify-content: center;
+        color: #202c4d;
+
+            .login_top_bg{
+                border-top-left-radius: 16px ;
+                border-top-right-radius: 16px;
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+            .login_header{
+                position: absolute;
+                top: -20px;
+                background: cyan;
+                text-align: center;
+                padding: 16px 5vw;
+
+            }
+            .login_icon{
+                position: absolute;
+                bottom: -0vh;
+                
+                height: 10vh;
+                .icon{
+                    font-size: 15vh;
+                    color: #7c839c;
+                }
+            }
+        }
+        .login_bottom{
+            padding: 0 15%;
+            padding-top: 10%;
+            .forgot_password{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 12px;
+                color: cyan;
+                p{
+                    cursor: pointer;
+                }
+
+            }
+            .login_button{
+                width: 102%;
+                margin: 16px 0;
+                padding: 8px;
+                color :#202c4d;
+                background-color: cyan;
+                border-radius: 4px;
+            }
+        }
+    }
+}
+
+.input{
+    background-color: #7c839c;
+    padding: 8px 4px;
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+    border-radius: 4px;
+    width: 100%;
+    .icon_holder{
+        border-right: 1.5px solid #202c4d;
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .input_holder{
+        width: 90%;
+        padding: 0 8px;
+        input{
+            width: 100%;
+            background-color: transparent;
+            outline: none;
+            border: none;
+        }
+
+    }
+}

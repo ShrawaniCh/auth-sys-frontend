@@ -1,0 +1,17 @@
+.home{
+    min-height: 100vh;
+    padding: 0 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(49,114,128);
+background: linear-gradient(180deg, rgba(49,114,128,1) 0%, rgba(88,192,189,1) 100%);
+.home_container{
+    width: 50%;
+        height: 60%;
+        background-color: #202c4d;
+        color: #fff;
+        border-radius: 16px;
+        padding: 16px;
+}
+}
